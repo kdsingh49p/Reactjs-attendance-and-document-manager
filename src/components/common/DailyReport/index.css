@@ -1,0 +1,139 @@
+.row.table-row {
+    border-top: 2px solid #EBF2F7;
+    padding-top: 20px;
+}
+.admin-card-header.user-manager-header {
+    padding-bottom: 2px;
+}
+table.table.admin-table th {
+    background: #f1f4f7;
+    white-space: nowrap;
+    border: none;
+    color: #B3B8BD;
+    font-family: 'Inter Regular';
+    font-weight: 600;
+    font-size: 13px;
+    padding: 8px 15px;
+
+}
+table.table.admin-table td {
+    padding: 15px;
+    font-size: 14px;
+    color: #52575D;
+    white-space: nowrap;
+    font-family: "Inter Regular";
+    vertical-align: middle;
+    border: none;
+    text-transform: capitalize;
+}
+.username-td {
+    display: flex;
+    align-items: center;
+}
+.username-td p,.status{
+    font-size: 14px;
+    color: #52575D;
+    font-family: "Inter Regular";
+    margin-bottom: 0;
+}
+.status{
+    position: relative;
+    padding-left: 20px;
+}
+
+.status:before {
+    width: 10px;
+    height: 10px;
+    content: "";
+    background: black;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    border-radius: 50px;
+}
+ul.pagination.admin-pagination {
+    justify-content: center;
+}
+.custom-control-input:checked~.custom-control-label::before {
+    color: #fff;
+    border-color: #049a9b;
+    background-color: #049a9b;
+}
+.custom-control-label::before {
+    border: #E3E9EF solid 1px;
+}
+ul.pagination.admin-pagination .page-link {
+    border: none;
+    font-size: 14px;
+    color: #52575D;
+    font-family: 'Inter Regular';
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    justify-content: center;
+    margin: 0 3px;
+    border-radius: 8px;
+}
+ul.pagination.admin-pagination {
+    margin-top: 25px;
+}
+li.page-item.active-li a {
+    background: #0061FF;
+    color: white !important;
+}
+li.page-item.disabled a i {
+    color: #bdbdbd !important;
+}
+ul.pagination.admin-pagination .page-link i {
+    border: none;
+    font-size: 21px;
+    color: #52575D;
+    font-family: 'Inter Regular';
+}
+.status.cancel-status:before {
+    background: #D14747;
+}
+.status.active-status:before {
+    background: #049A9B;
+}
+.status.hold-status:before {
+    background: #E3B25C;
+}
+.action-div-admin button {
+    border: none;
+    background: none;
+    color: #049A9B;
+    font-size: 20px;
+}
+button.delete {
+    color: #D14747;
+}
+.username-td img {
+    margin-right: 10px;
+    width: auto;
+    height: 35px;
+}
+table.table.admin-table th:first-child {
+    border-radius: 10px 0 0 10px;
+}
+table.table.admin-table th:last-child {
+    border-radius: 0px 10px 10px 0px;
+}
+table.table.admin-table tr:hover td {
+    background: #EAF2FF;
+}
+
+table.table.admin-table tr:hover td:first-child {
+    border-radius: 10px 0 0 10px;
+}
+
+table.table.admin-table tr:hover td:last-child {
+    border-radius: 0px 10px 10px 0px;
+}
+.blog_image{
+    max-width: 40px;
+}

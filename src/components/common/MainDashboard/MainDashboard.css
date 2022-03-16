@@ -1,0 +1,105 @@
+.stat-div {
+    display: flex;
+    align-items: center;
+    background: #EAF2FF;
+    border-radius: 5px;
+    padding: 10px 15px;
+    min-height: 110px;
+}
+.stat h3 {
+    font-size: 35px;
+    color: #111237;
+    font-family: 'Raleway Bold';
+    margin-bottom: 0;
+}
+.chart-div-btn {
+    width: 100%;
+    flex: 0 0 100%;
+}
+
+.chart-div-btn button {
+    border: none;
+    background: white;
+    padding: 6px 20px;
+    border-radius: 10px;
+    font-size: 14px;
+    color: #ccd0d4;
+    font-family: 'Montserrat SemiBold';
+}
+
+.chart-div-btn button.active-chart {
+    background: #52575d;
+    color: white;
+    
+}
+
+.stat-div i {
+    font-size: 30px;
+    margin-right: 15px;
+    color: #0061FF;
+}
+.stat p {
+    margin-bottom: 0;
+    font-size: 14px;
+    margin-top: 5px;
+    font-family: 'Montserrat Regular';
+}
+@media screen and (max-width: 1350px) {
+    .stat {
+        flex: 0 0 100%;
+        text-align: center;
+    }
+    .stat-div {
+        margin-bottom: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .stat-div i {
+        font-size: 25px;
+    }
+    .stat {
+        flex: 1;
+        text-align: left;
+    }
+    .stat-div {
+        margin-bottom: 15px;
+    }
+    .stat h3 {
+        font-size: 25px;
+    }
+    .stat-div {
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main-section {
+    }
+}
+.icon-box-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon-box{
+    text-align: center;
+    background: #0061FF;
+    max-width: 100px;
+    padding: 16px 0;
+    width: 100px;
+    border: 0;
+    border-radius: 14px;
+    box-shadow: 0px 5px 25px #52575d1a;
+    cursor: pointer;
+}
+
+.icon-box i{
+    font-size: 38px;
+    color: #FAFAFAFA;
+}
+
+.main-dashboar-card-row{
+    padding: 60px 0;
+}
